@@ -1,0 +1,16 @@
+<h3>Counter: {{ counter }}</h3>
+
+<button class="btn btn-outline-primary me-2"
+  (click)="increaseBy(+1);" id="mas">
+  +1
+</button>
+
+<button class="btn btn-warning me-2"
+  (click)="resetCounter();" id="reset">
+  Reset
+</button>
+
+<button class="btn btn-outline-primary"
+  (click)="increaseBy(-1);" id="minus">
+  -1
+</button>
